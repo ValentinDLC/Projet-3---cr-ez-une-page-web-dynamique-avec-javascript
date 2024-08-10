@@ -125,6 +125,44 @@ li:hover {
 	text-align: center;
 	margin-bottom: 1em;
 }
+
+/*filters Buttons*/
+
+.filters-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 50px;
+}
+
+button {
+  height: 36px;
+  padding: 0 10px;
+  min-width: 100px;
+  border-radius: 60px;
+  border: 1px solid #1d6154;
+  background-color: #fffef8;
+  font-size: 16px;
+  font-family: "Syne";
+  color: #1d6154;
+}
+
+button:hover,
+.is-active {
+  cursor: pointer;
+  background-color: #1d6154;
+  color: #ffffff;
+}
+
+button:hover {
+  border: 1px solid #1d6154;
+}
+
+.is-active:hover {
+  border: 1px solid #1d6154;
+}
+
 .gallery {
 	width: 100%;
 	display: grid;
