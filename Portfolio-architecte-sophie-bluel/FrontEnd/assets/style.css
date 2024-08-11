@@ -296,7 +296,8 @@ footer nav ul {
 /* ADMIN ELEMENTS */
 
 .edit-bar {
-  width: 100%;
+  width: 1270px;
+margin-left: -69px;
   height: 59px;
   background-color: #000000;
   color: #ffffff;
