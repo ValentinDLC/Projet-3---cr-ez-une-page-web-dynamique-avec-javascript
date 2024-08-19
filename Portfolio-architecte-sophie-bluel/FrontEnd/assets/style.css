@@ -523,7 +523,7 @@ footer nav ul {
 .modal-add-picture {
   padding: 2%;
   width: 536px;
-  height: 450px;
+  height: 490px;
   background-color: #ffffff;
   border-radius: 15px;
   transition: all 5s ease-in-out;
@@ -638,7 +638,7 @@ footer nav ul {
 
 #add-box .validate {
   border-top: 1px solid #b3b3b3;
-  margin-top: -30px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
