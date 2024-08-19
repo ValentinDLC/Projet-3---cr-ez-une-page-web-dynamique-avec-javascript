@@ -354,6 +354,7 @@ const validateForm = (e) => {
     selectElement.value !== "" &&
     fileInputElement.files.length > 0
   ) {
+    submitButton.style.backgroundColor = "#1d6154";
     addWorks();
   }
 };
