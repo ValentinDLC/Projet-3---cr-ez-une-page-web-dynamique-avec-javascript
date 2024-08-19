@@ -512,6 +512,7 @@ footer nav ul {
   padding-right: 40px;
   height: auto;
   min-height: 36px;
+  background: gray; 
   color: #ffffff;
 }
 
